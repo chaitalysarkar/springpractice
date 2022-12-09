@@ -25,7 +25,7 @@ public class SpringPracticeApplication {
 	@Bean
 	public  ResourceBundleMessageSource messageSource() {
 		ResourceBundleMessageSource messageSource=new ResourceBundleMessageSource();
-		messageSource.setBasename("message");
+		messageSource.setBasename("Abc");
 		return messageSource;
 		
 	}
